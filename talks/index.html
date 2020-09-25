@@ -163,7 +163,7 @@
     
     
       <p class="author__bio" itemprop="description">
-        I am a PhD student at <a href=https://www.epfl.ch/en/home>EPFL</a>, advised by <a href=https://people.epfl.ch/volkan.cevher/bio?lang=en&cvlang=en>Prof. Volkan Cevher</a>. <br> My research interests involve optimization and machine learning.
+        I am a postdoctoral fellow at <a href=https://www.mit.edu>MIT</a>, hosted by <a href=http://suvrit.de>Prof. Suvrit Sra</a>. My research interests involve optimization and machine learning.
       </p>
     
   </div>
@@ -173,18 +173,16 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">EPFL STI IEL LIONS <br> ELD 244 Station 11 <br> 1015 Lausanne, Switzerland</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">77 Massachusetts Ave. <br> 32-D642, MIT <br> Cambridge, MA 02139</span>
         </li>
       
 
       
         
           
-            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-envelope" aria-hidden="true"></i> alp.yurtsever *at* epfl.ch</a></li>
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-envelope" aria-hidden="true"></i> alpy *at* mit.edu</a></li>
           
         
-          
-            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-phone" aria-hidden="true"></i> +41 21 69 31154</a></li>
           
         
           
@@ -518,7 +516,58 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 
 <table id="qs_table" border="1">
 <tbody>
-<tr id="Talk-OR2017" class="entry">
+<tr id="Talk-SNSF2020" class="entry">
+	<td>
+	<b>[SNSF2020]</b>
+	SNSF Fellows Conference<br />
+	Virtual, July 2020.<br />
+	"Scalable semidefinite programming"<br />
+	Joint work with: 
+	Cevher, V., Fercoq, O., Udell, M. and Tropp, J.A. 
+	<p class="infolinks">
+	[<a href="javascript:toggleInfo('Talk-SNSF2020','abstract')">Abstract</a>]
+	 [<a href="https://drive.google.com/file/d/1F-AG_jqXCJb3pcIDGTqrJIBXwN2XJwuR/view" target="_blank">Slides</a>]
+	
+	</p>
+	</td>
+</tr>
+<tr id="abs_Talk-SNSF2020" class="abstract noshow">
+	<td><b>Abstract</b>: Semidefinite programming (SDP) is a powerful framework from convex optimization that has striking potential for data science applications. This paper develops a provably correct algorithm for solving large SDP problems by economizing on both the storage and the arithmetic costs. Numerical evidence shows that the method is effective for a range of applications, including relaxations of MaxCut, abstract phase retrieval, and quadratic assignment. Running on a laptop, the algorithm can handle SDP instances where the matrix variable has over 10^13 entries.</td>
+</tr><tr id="Talk-ICML2019a" class="entry">
+	<td>
+	<b>[ICML2019]</b>
+	36th International Conference on Machine Learning<br />
+	Long Beach, California, USA, June 2019.<br />
+	"Conditional gradient methods via stochastic path-integrated differential estimator"<br />
+	Joint work with: 
+	Sra, S. and Cevher, V. 
+	<p class="infolinks">
+	[<a href="javascript:toggleInfo('Talk-ICML2019a','abstract')">Abstract</a>]
+	 [<a href="https://drive.google.com/file/d/1wnfR1JqB_bnpRlBQHQFzELuVXy_nbsIR/view" target="_blank">Slides</a>]
+	
+	</p>
+	</td>
+</tr>
+<tr id="abs_Talk-ICML2019a" class="abstract noshow">
+	<td><b>Abstract</b>: We propose a class of variance-reduced stochastic conditional gradient methods. By adopting the recent stochastic path-integrated differential estimator technique (SPIDER) of Fang et. al. (2018) for the classical Frank-Wolfe (FW) method, we introduce SPIDER-FW for finite-sum minimization as well as the more general expectation minimization problems. SPIDER-FW enjoys superior complexity guarantees in the non-convex setting, while matching the best known FW variants in the convex case. We also extend our framework a la conditional gradient sliding (CGS) of Lan &amp; Zhou. (2016), and propose SPIDER-CGS.</td>
+</tr><tr id="Talk-ICML2019b" class="entry">
+	<td>
+	<b>[ICML2019]</b>
+	36th International Conference on Machine Learning<br />
+	Long Beach, California, USA, June 2019.<br />
+	"A conditional-gradient-based augmented Lagrangian framework"<br />
+	Joint work with: 
+	Fercoq, O. and Cevher, V. 
+	<p class="infolinks">
+	[<a href="javascript:toggleInfo('Talk-ICML2019b','abstract')">Abstract</a>]
+	 [<a href="https://drive.google.com/file/d/1eaMUf7dzYxxk8ZJA38cp7zyxpp-ZhJYr/view" target="_blank">Slides</a>]
+	
+	</p>
+	</td>
+</tr>
+<tr id="abs_Talk-ICML2019b" class="abstract noshow">
+	<td><b>Abstract</b>: This paper considers a generic convex minimization template with affine constraints over a compact domain, which covers key semidefinite programming applications. The existing conditional gradient methods either do not apply to our template or are too slow in practice. To this end, we propose a new conditional gradient method, based on a unified treatment of smoothing and augmented Lagrangian frameworks. The proposed method maintains favorable properties of the classical conditional gradient method, such as cheap linear minimization oracle calls and sparse representation of the decision variable. We prove O(1/√k) convergence rate for our method in the objective residual and the feasibility gap. This rate is essentially the same as the state of the art CG-type methods for our problem template, but the proposed method is arguably superior in practice compared to existing methods in various applications.</td>
+</tr><tr id="Talk-OR2017" class="entry">
 	<td>
 	<b>[ITA2019]</b>
 	Information Theory and Applications Workshop: Graduation Day<br />
@@ -691,7 +740,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr></tbody>
 </table>
 <footer>
-<small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 02/03/2019.</small>
+<small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 24/09/2020.</small>
 </footer>
 <!-- file generated by JabRef -->
 </body>
@@ -716,7 +765,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
     
       
         
-          <li><a href="https://twitter.com/alp_yrtsvr" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/alpy33913972" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
         
       
         
@@ -739,7 +788,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 Alp Yurtsever. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 Alp Yurtsever. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
