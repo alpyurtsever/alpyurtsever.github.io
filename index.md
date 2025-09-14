@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Alp Yurtsever"
 ---
 
 <h2>Announcements</h2>
