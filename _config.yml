@@ -1,8 +1,7 @@
 # _config.yml
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: minimal-mistakes-jekyll
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
@@ -10,16 +9,3 @@ plugins:
 # If you keep pages under _pages/, be sure to include it:
 include:
   - _pages
-
-defaults:
-  - scope:
-      path: ""         # all pages
-      type: pages
-    values:
-      layout: single
-      author_profile: true          # left profile sidebar
-      sidebar:
-        nav: "main"                 # use the nav from _data/navigation.yml
-      # optional niceties:
-      toc: false                    # or true if you want a page ToC
-      breadcrumbs: true
