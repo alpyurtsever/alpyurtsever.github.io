@@ -273,7 +273,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Dadras2025-pFLMF" class="abstract noshow">
-	<td><b>Abstract</b>: Semidefinite programming (SDP) is a powerful framework from convex optimization that has striking potential for data science applications. This paper develops a provably correct algorithm for solving large SDP problems by economizing on both the storage and the arithmetic costs. Numerical evidence shows that the method is effective for a range of applications, including relaxations of MaxCut, abstract phase retrieval, and quadratic assignment. Running on a laptop, the algorithm can handle SDP instances where the matrix variable has over 10^13 entries.</td>
+	<td><b>Abstract</b>: Personalized Federated Learning (pFL) has gained significant attention for building a suite of models tailored to different clients. In pFL, the challenge lies in balancing the reliance on local datasets, which may lack representativeness, against the diversity of other clients' models, whose quality and relevance are uncertain. Focusing on the clustered FL scenario, where devices are grouped based on similarities in their data distributions without prior knowledge of cluster memberships, we develop a mathematical model for pFL using low-rank matrix optimization. Building on this formulation, we propose a pFL approach leveraging the Burer-Monteiro factorization technique. We examine the convergence guarantees of the proposed method and present numerical experiments on training deep neural networks, demonstrating the empirical performance of the proposed method in scenarios where personalization is crucial.</td>
 </tr>
 <tr id="bib_Dadras2025-pFLMF" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -310,7 +310,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Prakhya2025-SDPNN" class="abstract noshow">
-	<td><b>Abstract</b>: We propose a class of variance-reduced stochastic conditional gradient methods. By adopting the recent stochastic path-integrated differential estimator technique (SPIDER) of Fang et. al. (2018) for the classical Frank-Wolfe (FW) method, we introduce SPIDER-FW for finite-sum minimization as well as the more general expectation minimization problems. SPIDER-FW enjoys superior complexity guarantees in the non-convex setting, while matching the best known FW variants in the convex case. We also extend our framework a la conditional gradient sliding (CGS) of Lan &amp; Zhou. (2016), and propose SPIDER-CGS.</td>
+	<td><b>Abstract</b>: Solving non-convex, NP-hard optimization problems is crucial for training machine learning models, including neural networks. However, non-convexity often leads to black-box machine learning models with unclear inner workings. While convex formulations have been used for verifying neural network robustness, their application to training neural networks remains less explored. In response to this challenge, we reformulate the problem of training infinite-width two-layer ReLU networks as a convex completely positive program in a finite-dimensional (lifted) space. Despite the convexity, solving this problem remains NP-hard due to the complete positivity constraint. To overcome this challenge, we introduce a semidefinite relaxation that can be solved in polynomial time. We then experimentally evaluate the tightness of this relaxation, demonstrating its competitive performance in test accuracy across a range of classification tasks.</td>
 </tr>
 <tr id="bib_Prakhya2025-SDPNN" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -347,7 +347,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Palenzuela2025-ProvableReduction" class="abstract noshow">
-	<td><b>Abstract</b>: This paper describes scalable convex optimization methods for phase retrieval. The main characteristics of these methods are the cheap per-iteration complexity and the low-memory footprint. With a variant of the original PhaseLift formulation, we first illustrate how to leverage the scalable Frank-Wolfe (FW) method (also known as the conditional gradient algorithm), which requires a tuning parameter. We demonstrate that we can estimate the tuning parameter of the FW algorithm directly from the measurements, with rigorous theoretical guarantees. We then illustrate numerically that recent advances in universal primal-dual convex optimization methods offer significant scalability improvements over the FW method, by recovering full HD resolution color images from their quadratic measurements.</td>
+	<td><b>Abstract</b>: Multiple local steps are key to communication-efficient federated learning. However, theoretical guarantees for such algorithms, without data heterogeneity-bounding assumptions, have been lacking in general non-smooth convex problems. Leveraging projection-efficient optimization methods, we propose FedMLS, a federated learning algorithm with provable improvements from multiple local steps. FedMLS attains an &#120598;-suboptimal solution in O(1/) communication rounds, requiring a total of  O(1/2) stochastic subgradient oracle calls.</td>
 </tr>
 <tr id="bib_Palenzuela2025-ProvableReduction" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -384,7 +384,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Maskan2025-UnifiedModel" class="abstract noshow">
-	<td><b>Abstract</b>: This paper develops a suite of algorithms for constructing low-rank approximations of an input matrix from a random linear image of the matrix, called a sketch. These methods can preserve structural properties of the input matrix, such as positive-semidefiniteness, and they can produce approximations with a user-specified rank. The algorithms are simple, accurate, numerically stable, and provably correct. Moreover, each method is accompanied by an informative error bound that allows users to select parameters a priori to achieve a given approximation quality. These claims are supported by computer experiments.</td>
+	<td><b>Abstract</b>: Recent work on high-resolution ordinary differential equations (HR-ODEs) captures fine nuances among different momentum-based optimization methods, leading to accurate theoretical insights. However, these HR-ODEs often appear disconnected, each targeting a specific algorithm and derived with different assumptions and techniques. We present a unifying framework by showing that these diverse HR-ODEs emerge as special cases of a general HR-ODE derived using the Forced Euler-Lagrange equation. Discretizing this model recovers a wide range of optimization algorithms through different parameter choices. Using integral quadratic constraints, we also introduce a general Lyapunov function to analyze the convergence of the proposed HR-ODE and its discretizations, achieving significant improvements across various cases, including new guarantees for the triple momentum method's HR-ODE and the quasi-hyperbolic momentum method, as well as faster gradient norm minimization rates for Nesterov′s accelerated gradient algorithm, among other advances.</td>
 </tr>
 <tr id="bib_Maskan2025-UnifiedModel" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -421,7 +421,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Maskan2025-RevisitingNonconvexFW" class="abstract noshow">
-	<td><b>Abstract</b>: This paper develops a suite of algorithms for constructing low-rank approximations of an input matrix from a random linear image of the matrix, called a sketch. These methods can preserve structural properties of the input matrix, such as positive-semidefiniteness, and they can produce approximations with a user-specified rank. The algorithms are simple, accurate, numerically stable, and provably correct. Moreover, each method is accompanied by an informative error bound that allows users to select parameters a priori to achieve a given approximation quality. These claims are supported by computer experiments.</td>
+	<td><b>Abstract</b>: We introduce a new projection-free (Frank-Wolfe) method for optimizing structured nonconvex functions that are expressed as a difference of two convex functions. This problem class subsumes smooth nonconvex minimization, positioning our method as a promising alternative to the classical Frank-Wolfe algorithm. DC decompositions are not unique; by carefully selecting a decomposition, we can better exploit the problem structure, improve computational efficiency, and adapt to the underlying problem geometry to find better local solutions. We prove that the proposed method achieves a first-order stationary point in &Oscr;(1/2) iterations,  matching the complexity of the standard Frank-Wolfe algorithm for smooth nonconvex minimization in general. Specific decompositions can, for instance, yield a gradient-efficient variant that requires only &Oscr;(1/) calls to the gradient oracle. Finally, we present numerical experiments demonstrating the effectiveness of the proposed method compared to the standard Frank-Wolfe algorithm.<br></td>
 </tr>
 <tr id="bib_Maskan2025-RevisitingNonconvexFW" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -458,7 +458,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Hou2025-UDV" class="abstract noshow">
-	<td><b>Abstract</b>: This paper develops a suite of algorithms for constructing low-rank approximations of an input matrix from a random linear image of the matrix, called a sketch. These methods can preserve structural properties of the input matrix, such as positive-semidefiniteness, and they can produce approximations with a user-specified rank. The algorithms are simple, accurate, numerically stable, and provably correct. Moreover, each method is accompanied by an informative error bound that allows users to select parameters a priori to achieve a given approximation quality. These claims are supported by computer experiments.</td>
+	<td><b>Abstract</b>: Gradient descent for matrix factorization is known to exhibit an implicit bias toward approximately low-rank solutions. While existing theories often assume the boundedness of iterates, empirically the bias persists even with unbounded sequences. We thus hypothesize that implicit bias is driven by divergent dynamics markedly different from the convergent dynamics for data fitting. Using this perspective, we introduce a new factorization model: X &ap; UDV^top, where U and V are constrained within norm balls, while D is a diagonal factor allowing the model to span the entire search space. Our experiments reveal that this model exhibits a strong implicit bias regardless of initialization and step size, yielding truly (rather than approximately) low-rank solutions. Furthermore, drawing parallels between matrix factorization and neural networks, we propose a novel neural network model featuring constrained layers and diagonal components. This model achieves strong performance across various regression and classification tasks while finding low-rank solutions, resulting in efficient and lightweight networks.</td>
 </tr>
 <tr id="bib_Hou2025-UDV" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -495,7 +495,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Maskan2025-BlockCoordinateDC" class="abstract noshow">
-	<td><b>Abstract</b>: This paper develops a suite of algorithms for constructing low-rank approximations of an input matrix from a random linear image of the matrix, called a sketch. These methods can preserve structural properties of the input matrix, such as positive-semidefiniteness, and they can produce approximations with a user-specified rank. The algorithms are simple, accurate, numerically stable, and provably correct. Moreover, each method is accompanied by an informative error bound that allows users to select parameters a priori to achieve a given approximation quality. These claims are supported by computer experiments.</td>
+	<td><b>Abstract</b>: We introduce an extension of the Difference of Convex Algorithm (DCA) in the form of a block coordinate approach for problems with separable structure. For n coordinate-blocks and k iterations, our main result proves a non-asymptotic convergence rate of O(n/k) for the proposed method. Furthermore, leveraging the connection between DCA and Expectation Maximization (EM), we propose a block coordinate EM algorithm.</td>
 </tr>
 <tr id="bib_Maskan2025-BlockCoordinateDC" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -549,7 +549,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 <tr id="Banerjee2024-PersonalizedMultiTier" class="entry">
 	<td>Banerjee, S., Dadras, A., Yurtsever, A. and Bhuyan, M. 
 	(2024), 
-	<i>"Faster One-Sample Stochastic Conditional Gradient Method for Composite Convex Minimization"</i>
+	<i>"Personalized Multi-tier Federated Learning"</i>
 	
 	, In 31st International Conference on Neural Information Processing (ICONIP).
 	
@@ -569,14 +569,14 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Banerjee2024-PersonalizedMultiTier" class="abstract noshow">
-	<td><b>Abstract</b>: This paper concerns a fundamental class of convex matrix optimization problems. It presents the first algorithm that uses optimal storage and provably computes a lowrank approximation of a solution. In particular, when all solutions have low rank, the algorithm converges to a solution. This algorithm, SketchyCGM, modifies a standard convex optimization scheme, the conditional gradient method, to store only a small randomized sketch of the matrix variable. After the optimization terminates, the algorithm extracts a low-rank approximation of the solution from the sketch. In contrast to nonconvex heuristics, the guarantees for SketchyCGM do not rely on statistical models for the problem data. Numerical work demonstrates the benefits of SketchyCGM over heuristics.</td>
+	<td><b>Abstract</b>: The key challenge of personalized federated learning (PerFL) is to capture the statistical heterogeneity properties of data with inexpensive communications and gain customized performance for participating devices. To address these, we introduced personalized federated learning in multi-tier architecture (PerMFL) to obtain optimized and personalized local models when there are known team structures across devices. We provide theoretical guarantees of PerMFL, which offers linear convergence rates for smooth strongly convex problems and sub-linear convergence rates for smooth non-convex problems. We conduct numerical experiments demonstrating the robust empirical performance of PerMFL, outperforming the state-of-the-art in multiple personalized federated learning tasks.</td>
 </tr>
 <tr id="bib_Banerjee2024-PersonalizedMultiTier" class="bibtex noshow">
 <td><b>BibTeX</b>:
 <pre>
 @conference{Banerjee2024-PersonalizedMultiTier,
   author = {Banerjee, S. and Dadras, A. and Yurtsever, A. and Bhuyan, M.},
-  title = {Faster One-Sample Stochastic Conditional Gradient Method for Composite Convex Minimization},
+  title = {Personalized Multi-tier Federated Learning},
   booktitle = {31st International Conference on Neural Information Processing (ICONIP)},
   year = {2024},
   url = {https://arxiv.org/pdf/2407.14251}
@@ -606,7 +606,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Maskan2023-VariationalPerspective" class="abstract noshow">
-	<td><b>Abstract</b>: Several important applications, such as streaming PCA and semidefinite programming, involve a large-scale positive-semidefinite (psd) matrix that is presented as a sequence of linear updates. Because of storage limitations, it may only be possible to retain a sketch of the psd matrix. This paper develops a new algorithm for fixed-rank psd approximation from a sketch. The approach combines the Nystr&ouml;m<br>approximation with a novel mechanism for rank truncation. Theoretical analysis establishes that the proposed method can achieve any prescribed relative error in the Schatten 1-norm and that it exploits the spectral decay of the input matrix. Computer experiments show that the proposed method dominates alternative techniques for fixed-rank psd matrix approximation across a wide range of examples.</td>
+	<td><b>Abstract</b>: We consider unconstrained minimization of smooth convex functions. We propose a novel variational perspective using forced Euler-Lagrange equation that allows for studying high-resolution ODEs. Through this, we obtain a faster convergence rate for gradient norm minimization using Nesterov's accelerated gradient method. Additionally, we show that Nesterov's method can be interpreted as a rate-matching discretization of an appropriately chosen high-resolution ODE. Finally, using the results from the new variational perspective, we propose a stochastic method for noisy gradients. Several numerical experiments compare and illustrate our stochastic algorithm with state of the art methods.</td>
 </tr>
 <tr id="bib_Maskan2023-VariationalPerspective" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -643,7 +643,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Yurtsever2022-CCCPisFW" class="abstract noshow">
-	<td><b>Abstract</b>: Several important applications, such as streaming PCA and semidefinite programming, involve a large-scale positive-semidefinite (psd) matrix that is presented as a sequence of linear updates. Because of storage limitations, it may only be possible to retain a sketch of the psd matrix. This paper develops a new algorithm for fixed-rank psd approximation from a sketch. The approach combines the Nystr&ouml;m<br>approximation with a novel mechanism for rank truncation. Theoretical analysis establishes that the proposed method can achieve any prescribed relative error in the Schatten 1-norm and that it exploits the spectral decay of the input matrix. Computer experiments show that the proposed method dominates alternative techniques for fixed-rank psd matrix approximation across a wide range of examples.</td>
+	<td><b>Abstract</b>: This paper uncovers a simple but rather surprising connection: it shows that the well-known convex-concave procedure (CCCP) and its generalization to constrained problems are both special cases of the Frank-Wolfe (FW) method. This connection not only provides insight of deep (in our opinion) pedagogical value, but also transfers the recently discovered convergence theory of nonconvex Frank-Wolfe methods immediately to CCCP, closing a long-standing gap in its non-asymptotic convergence theory. We hope the viewpoint uncovered by this paper spurs the transfer of other advances made for FW to both CCCP and its generalizations.</td>
 </tr>
 <tr id="bib_Yurtsever2022-CCCPisFW" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -680,7 +680,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Yurtsever2022-QuantumFrankWolfe" class="abstract noshow">
-	<td><b>Abstract</b>: This paper concerns a fundamental class of convex matrix optimization problems. It presents the first algorithm that uses optimal storage and provably computes a lowrank approximation of a solution. In particular, when all solutions have low rank, the algorithm converges to a solution. This algorithm, SketchyCGM, modifies a standard convex optimization scheme, the conditional gradient method, to store only a small randomized sketch of the matrix variable. After the optimization terminates, the algorithm extracts a low-rank approximation of the solution from the sketch. In contrast to nonconvex heuristics, the guarantees for SketchyCGM do not rely on statistical models for the problem data. Numerical work demonstrates the benefits of SketchyCGM over heuristics.</td>
+	<td><b>Abstract</b>: We present a hybrid classical-quantum framework based on the Frank-Wolfe algorithm, Q-FW, for solving quadratic, linearly-constrained, binary optimization problems on quantum annealers (QA). The computational premise of quantum computers has cultivated the re-design of various existing vision problems into quantum-friendly forms. Experimental QA realizations can solve a particular non-convex problem known as the quadratic unconstrained binary optimization (QUBO). Yet a naive-QUBO cannot take into account the restrictions on the parameters. To introduce additional structure in the parameter space, researchers have crafted ad-hoc solutions incorporating (linear) constraints in the form of regularizers. However, this comes at the expense of a hyper-parameter, balancing the impact of regularization. To date, a true constrained solver of quadratic binary optimization (QBO) problems has lacked. Q-FW first reformulates constrained-QBO as a copositive program (CP), then employs Frank-Wolfe iterations to solve CP while satisfying linear (in)equality constraints. This procedure unrolls the original constrained-QBO into a set of unconstrained QUBOs all of which are solved, in a sequel, on a QA. We use D-Wave Advantage QA to conduct synthetic and real experiments on two important computer vision problems, graph matching and permutation synchronization, which demonstrate that our approach is effective in alleviating the need for an explicit regularization coefficient.</td>
 </tr>
 <tr id="bib_Yurtsever2022-QuantumFrankWolfe" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -717,7 +717,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Dresdner2022-FasterOneSample" class="abstract noshow">
-	<td><b>Abstract</b>: This paper concerns a fundamental class of convex matrix optimization problems. It presents the first algorithm that uses optimal storage and provably computes a lowrank approximation of a solution. In particular, when all solutions have low rank, the algorithm converges to a solution. This algorithm, SketchyCGM, modifies a standard convex optimization scheme, the conditional gradient method, to store only a small randomized sketch of the matrix variable. After the optimization terminates, the algorithm extracts a low-rank approximation of the solution from the sketch. In contrast to nonconvex heuristics, the guarantees for SketchyCGM do not rely on statistical models for the problem data. Numerical work demonstrates the benefits of SketchyCGM over heuristics.</td>
+	<td><b>Abstract</b>: We propose a stochastic conditional gradient method (CGM) for minimizing convex finite-sum objectives formed as a sum of smooth and non-smooth terms. Existing CGM variants for this template either suffer from slow convergence rates, or require carefully increasing the batch size over the course of the algorithm's execution, which leads to computing full gradients. In contrast, the proposed method, equipped with a stochastic average gradient (SAG) estimator, requires only one sample per iteration. Nevertheless, it guarantees fast convergence rates on par with more sophisticated variance reduction techniques. In applications we put special emphasis on problems with a large number of separable constraints. Such problems are prevalent among semidefinite programming (SDP) formulations arising in machine learning and theoretical computer science. We provide numerical experiments on matrix completion, unsupervised clustering, and sparsest-cut SDPs.</td>
 </tr>
 <tr id="bib_Dresdner2022-FasterOneSample" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -754,7 +754,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Yurtsever2021-AdaptiveTOS" class="abstract noshow">
-	<td><b>Abstract</b>: Several important applications, such as streaming PCA and semidefinite programming, involve a large-scale positive-semidefinite (psd) matrix that is presented as a sequence of linear updates. Because of storage limitations, it may only be possible to retain a sketch of the psd matrix. This paper develops a new algorithm for fixed-rank psd approximation from a sketch. The approach combines the Nystr&ouml;m<br>approximation with a novel mechanism for rank truncation. Theoretical analysis establishes that the proposed method can achieve any prescribed relative error in the Schatten 1-norm and that it exploits the spectral decay of the input matrix. Computer experiments show that the proposed method dominates alternative techniques for fixed-rank psd matrix approximation across a wide range of examples.</td>
+	<td><b>Abstract</b>: Three Operator Splitting (TOS) (Davis &amp; Yin, 2017) can minimize the sum of multiple convex functions effectively when an efficient gradient oracle or proximal operator is available for each term. This requirement often fails in machine learning applications: (i) instead of full gradients only stochastic gradients may be available; and (ii) instead of proximal operators, using subgradients to handle complex penalty functions may be more efficient and realistic. Motivated by these concerns, we analyze three potentially valuable extensions of TOS. The first two permit using subgradients and stochastic gradients, and are shown to ensure a O(1/sqrtt) convergence rate. The third extension AdapTOS endows TOS with adaptive step-sizes. For the important setting of optimizing a convex loss over the intersection of convex sets AdapTOS attains universal convergence rates, i.e., the rate adapts to the unknown smoothness degree of the objective. We compare our proposed methods with competing methods on various applications.</td>
 </tr>
 <tr id="bib_Yurtsever2021-AdaptiveTOS" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -791,7 +791,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Yurtsever2021-NonconvexTOS" class="abstract noshow">
-	<td><b>Abstract</b>: We propose a class of variance-reduced stochastic conditional gradient methods. By adopting the recent stochastic path-integrated differential estimator technique (SPIDER) of Fang et. al. (2018) for the classical Frank-Wolfe (FW) method, we introduce SPIDER-FW for finite-sum minimization as well as the more general expectation minimization problems. SPIDER-FW enjoys superior complexity guarantees in the non-convex setting, while matching the best known FW variants in the convex case. We also extend our framework a la conditional gradient sliding (CGS) of Lan &amp; Zhou. (2016), and propose SPIDER-CGS.</td>
+	<td><b>Abstract</b>: We consider the problem of minimizing the sum of three functions, one of which is nonconvex but differentiable, and the other two are convex but possibly nondifferentiable. We investigate the Three Operator Splitting method (TOS) of Davis &amp; Yin (2017) with an aim to extend its theoretical guarantees for this nonconvex problem template. In particular, we prove convergence of TOS with nonasymptotic bounds on its nonstationarity and infeasibility errors. In contrast with the existing work on nonconvex TOS, our guarantees do not require additional smoothness assumptions on the terms comprising the objective; hence they cover instances of particular interest where the nondifferentiable terms are indicator functions. We also extend our results to a stochastic setting where we have access only to an unbiased estimator of the gradient. Finally, we illustrate the effectiveness of the proposed method through numerical experiments on quadratic assignment problems.</td>
 </tr>
 <tr id="bib_Yurtsever2021-NonconvexTOS" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -1606,7 +1606,7 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 <small>Please find the list ordered by citation count in my <a href="https://scholar.google.com/citations?user=wa_n-xYAAAAJ&hl=en" target="_blank">Google Scholar</a> page.</small>
 <br>
 
-<small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 14/09/2025.</small>
+<small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 15/09/2025.</small>
 </footer>
 <!-- file generated by JabRef -->
 </body>
