@@ -1,278 +1,12 @@
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.14.1 by Michael Rose
-  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
+---
+title: My Oral Presentations
+permalink: /talks/
+---
 
-<!-- begin _includes/seo.html --><title>My Oral Presentations | ALP YURTSEVER</title>
-<meta name="description" content="">
 
-
-
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="ALP YURTSEVER">
-<meta property="og:title" content="My Oral Presentations">
-<meta property="og:url" content="http://localhost:4000/talks/">
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-<link rel="canonical" href="http://localhost:4000/talks/">
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Alp Yurtsever",
-      "url": "http://localhost:4000",
-      "sameAs": null
-    }
-  </script>
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ALP YURTSEVER Feed">
-
-<!-- https://t.co/dKP3o1e -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if lte IE 9]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
-
-
-
-    <!-- start custom head snippets -->
-
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
-
-  </head>
-
-  <body class="layout--archive">
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
-    <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <!-- <a class="site-title" href="/">ALP YURTSEVER</a>n-->
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/curriculum/" >CURRICULUM</a>
-            </li><li class="masthead__menu-item">
-              <a href="/publications/" >PUBLICATIONS</a>
-            </li><li class="masthead__menu-item">
-              <a href="/talks/" >TALKS</a>
-            </li><li class="masthead__menu-item">
-              <a href="/software/" >SOFTWARE</a>
-            </li><li class="masthead__menu-item">
-              <a href="/" ><i class="fas fa-home"></i></a>
-            </li></ul>
-        
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-
-    <div class="initial-content">
-      
-
-
-
-<div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-    <div class="author__avatar">
-      
-
-      
-        <img src="/assets/images/alp-avatar.jpg" alt="Alp Yurtsever" itemprop="image">
-      
-    </div>
-  
-
-  <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name">Alp Yurtsever</h3>
-    
-    
-      <p class="author__bio" itemprop="description">
-        Assistant professor in Machine Learning at <a href=https://www.umu.se/en/department-of-mathematics-and-mathematical-statistics/>Department of Mathematics and Mathematical Statistics</a> at <a href=https://www.umu.se/en/>Umeå University</a>.
-      </p>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">MIT-huset, plan 3, Matematik och <br> matematisk statistik, MIT.F.339 <br> Umeå universitet, 901 87 Umeå </span>
-        </li>
-      
-
-      
-        
-          
-            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-envelope" aria-hidden="true"></i> alp.yurtsever *at* umu.se</a></li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">My Oral Presentations</h1>
-    
-    <head>
+<head>
 <title>JabRef references</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script type="text/javascript">
 <!--
 // QuickSearch script for JabRef HTML export 
@@ -519,9 +253,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 <tr id="Talk-SNSF2020" class="entry">
 	<td>
 	<b>[SNSF2020]</b>
-	SNSF Fellows Conference<br />
-	Virtual, July 2020.<br />
-	"Scalable semidefinite programming"<br />
+	SNSF Fellows Conference<br>
+	Virtual, July 2020.<br>
+	"Scalable semidefinite programming"<br>
 	Joint work with: 
 	Cevher, V., Fercoq, O., Udell, M. and Tropp, J.A. 
 	<p class="infolinks">
@@ -536,9 +270,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-ICML2019a" class="entry">
 	<td>
 	<b>[ICML2019]</b>
-	36th International Conference on Machine Learning<br />
-	Long Beach, California, USA, June 2019.<br />
-	"Conditional gradient methods via stochastic path-integrated differential estimator"<br />
+	36th International Conference on Machine Learning<br>
+	Long Beach, California, USA, June 2019.<br>
+	"Conditional gradient methods via stochastic path-integrated differential estimator"<br>
 	Joint work with: 
 	Sra, S. and Cevher, V. 
 	<p class="infolinks">
@@ -553,9 +287,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-ICML2019b" class="entry">
 	<td>
 	<b>[ICML2019]</b>
-	36th International Conference on Machine Learning<br />
-	Long Beach, California, USA, June 2019.<br />
-	"A conditional-gradient-based augmented Lagrangian framework"<br />
+	36th International Conference on Machine Learning<br>
+	Long Beach, California, USA, June 2019.<br>
+	"A conditional-gradient-based augmented Lagrangian framework"<br>
 	Joint work with: 
 	Fercoq, O. and Cevher, V. 
 	<p class="infolinks">
@@ -570,9 +304,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-OR2017" class="entry">
 	<td>
 	<b>[ITA2019]</b>
-	Information Theory and Applications Workshop: Graduation Day<br />
-	San Diego, CA, USA, January 2019.<br />
-	"Sketchy decisions: Convex optimization with optimal storage (with applications to semidefinite programming)"<br />
+	Information Theory and Applications Workshop: Graduation Day<br>
+	San Diego, CA, USA, January 2019.<br>
+	"Sketchy decisions: Convex optimization with optimal storage (with applications to semidefinite programming)"<br>
 	Joint work with: 
 	Cevher, V., Fercoq, O., Locatello, F., Udell, M. and Tropp, J.A. 
 	<p class="infolinks">
@@ -583,19 +317,19 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 	</td>
 </tr>
 <tr id="abs_Talk-OR2017" class="abstract noshow">
-	<td><b>Abstract</b>: Semidefinite programs (SDP) often have low-rank solutions that can be represented with O(n)-storage, yet SDP algorithms require us to store a matrix decision variable with size (n x n). <br />This observation leads to a question central to my research: <br />Suppose that the solution to an optimization problem has a compact representation. Can we develop storage-optimal algorithms that provably approximate a solution of this problem?<br />We give an affirmative answer to this question, and develop the first storage-optimal convex optimization method for solving SDPs. We present empirical evidence of the scalability of our approach by solving convex optimization problems of trillion dimensions.</td>
+	<td><b>Abstract</b>: Semidefinite programs (SDP) often have low-rank solutions that can be represented with O(n)-storage, yet SDP algorithms require us to store a matrix decision variable with size (n x n). <br>This observation leads to a question central to my research: <br>Suppose that the solution to an optimization problem has a compact representation. Can we develop storage-optimal algorithms that provably approximate a solution of this problem?<br>We give an affirmative answer to this question, and develop the first storage-optimal convex optimization method for solving SDPs. We present empirical evidence of the scalability of our approach by solving convex optimization problems of trillion dimensions.</td>
 </tr><tr id="Talk-ICML2018" class="entry">
 	<td>
 	<b>[ICML2018]</b>
-	35th International Conference on Machine Learning<br />
-	Stockholm, Sweden, July 2018.<br />
-	"A conditional gradient framework for composite convex minimization with applications to semidefinite programming"<br />
+	35th International Conference on Machine Learning<br>
+	Stockholm, Sweden, July 2018.<br>
+	"A conditional gradient framework for composite convex minimization with applications to semidefinite programming"<br>
 	Joint work with: 
 	Fercoq, O., Locatello, F. and Cevher, V. 
 	<p class="infolinks">
 	[<a href="javascript:toggleInfo('Talk-ICML2018','abstract')">Abstract</a>]
 	 [<a href="https://drive.google.com/open?id=1lvpJbYyZQIThwP8oD2e1cTsA2sL-Gbdp" target="_blank">Slides</a>]
-	 [<a href="https://www.youtube.com/watch?v=oXa1eZniKUE&amp;list=PLKqPM_AcQY4xqJzWFwz7m904YwX9RiEaA&amp;index=8&amp;t=240s" target="_blank">Video</a>]
+	 [<a href="https://www.youtube.com/watch?v=oXa1eZniKUE&list=PLKqPM_AcQY4xqJzWFwz7m904YwX9RiEaA&index=8&t=240s" target="_blank">Video</a>]
 	</p>
 	</td>
 </tr>
@@ -604,9 +338,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-ISMP2018" class="entry">
 	<td>
 	<b>[ISMP2018]</b>
-	23rd International Symposium onMathematical Programming<br />
-	Bordeaux, France, July 2018.<br />
-	"A conditional gradient framework for composite convex minimization"<br />
+	23rd International Symposium onMathematical Programming<br>
+	Bordeaux, France, July 2018.<br>
+	"A conditional gradient framework for composite convex minimization"<br>
 	Joint work with: 
 	Fercoq, O., Locatello, F. and Cevher, V. 
 	<p class="infolinks">
@@ -621,9 +355,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-AISTATS2017" class="entry">
 	<td>
 	<b>[AISTATS2017]</b>
-	20th International Conference on Artificial Intelligence and Statistics<br />
-	Fort Lauderdale, Florida, USA, April 2017.<br />
-	"Sketchy decisions: Convex optimization with optimal storage."<br />
+	20th International Conference on Artificial Intelligence and Statistics<br>
+	Fort Lauderdale, Florida, USA, April 2017.<br>
+	"Sketchy decisions: Convex optimization with optimal storage."<br>
 	Joint work with: 
 	Tropp, J.A., Udell, M. and Cevher, V. 
 	<p class="infolinks">
@@ -638,9 +372,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-OP17" class="entry">
 	<td>
 	<b>[OP17]</b>
-	SIAM Conference on Optimization<br />
-	Vancouver, British Columbia, Canada, May 2017.<br />
-	"Stochastic forward Douglas-Rachford splitting for monotone inclusions"<br />
+	SIAM Conference on Optimization<br>
+	Vancouver, British Columbia, Canada, May 2017.<br>
+	"Stochastic forward Douglas-Rachford splitting for monotone inclusions"<br>
 	Joint work with: 
 	Vu, B.C. and Cevher, V. 
 	<p class="infolinks">
@@ -655,9 +389,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-OR2017" class="entry">
 	<td>
 	<b>[OR2017]</b>
-	15th Swiss Operations Research Days<br />
-	Fribourg, Switzerland, June 2017.<br />
-	"Sketchy decisions: Convex optimization with optimal storage"<br />
+	15th Swiss Operations Research Days<br>
+	Fribourg, Switzerland, June 2017.<br>
+	"Sketchy decisions: Convex optimization with optimal storage"<br>
 	Joint work with: 
 	Tropp, J.A., Udell, M. and Cevher, V. 
 	<p class="infolinks">
@@ -672,9 +406,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-SPARS2017" class="entry">
 	<td>
 	<b>[SPARS2017]</b>
-	Signal Processing with Adaptive Sparse Structured Representations<br />
-	Fribourg, Switzerland, June 2017.<br />
-	"Scalable convex methods for low-rank matrix problems"<br />
+	Signal Processing with Adaptive Sparse Structured Representations<br>
+	Fribourg, Switzerland, June 2017.<br>
+	"Scalable convex methods for low-rank matrix problems"<br>
 	Joint work with: 
 	Tran-Dinh, Q., Tropp, J.A., Udell, M. and Cevher, V. 
 	<p class="infolinks">
@@ -689,9 +423,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-EcoCloud2016" class="entry">
 	<td>
 	<b>[EcoCloud2016]</b>
-	Annual Event<br />
-	Lausanne, Switzerland, May 2016.<br />
-	"A universal primal-dual convex optimization framework"<br />
+	Annual Event<br>
+	Lausanne, Switzerland, May 2016.<br>
+	"A universal primal-dual convex optimization framework"<br>
 	Joint work with: 
 	Tran-Dinh, Q. and Cevher, V. 
 	<p class="infolinks">
@@ -706,9 +440,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-ICCOPT2016" class="entry">
 	<td>
 	<b>[ICCOPT2016]</b>
-	5th International Conference on Continuous Optimization<br />
-	Tokyo, Japan, August 2016.<br />
-	"A universal primal-dual convex optimization framework"<br />
+	5th International Conference on Continuous Optimization<br>
+	Tokyo, Japan, August 2016.<br>
+	"A universal primal-dual convex optimization framework"<br>
 	Joint work with: 
 	Tran-Dinh, Q. and Cevher, V. 
 	<p class="infolinks">
@@ -723,9 +457,9 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </tr><tr id="Talk-ISMP2015" class="entry">
 	<td>
 	<b>[ISMP2015]</b>
-	22nd International Symposium onMathematical Programming<br />
-	Pittsburgh, USA, July 2015.<br />
-	"Universal primal-dual proximal-gradient methods"<br />
+	22nd International Symposium onMathematical Programming<br>
+	Pittsburgh, USA, July 2015.<br>
+	"Universal primal-dual proximal-gradient methods"<br>
 	Joint work with: 
 	Tran-Dinh, Q. and Cevher, V. 
 	<p class="infolinks">
@@ -744,65 +478,3 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 </footer>
 <!-- file generated by JabRef -->
 </body>
-
-  </div>
-</div>
-    </div>
-
-    
-
-    <div class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-
-<!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-
-    
-      
-        
-          <li><a href="https://twitter.com/alpy33913972" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-        
-      
-        
-          <li><a href="https://www.linkedin.com/in/alpyurtsever/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIN</a></li>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2021 Alp Yurtsever. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-      </footer>
-    </div>
-
-    
-  <script src="/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-  </body>
-</html>

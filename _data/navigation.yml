@@ -1,0 +1,24 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "CURRICULUM"
+    url: /curriculum/
+  - title: "PUBLICATIONS"
+    url: /publications/
+  - title: "TALKS"
+    url: /talks/
+  - title: "SOFTWARE"
+    url: /software/
+  - title: <i class="fas fa-home"></i>
+    url: /
+  # - title: "BLOG"
+  #   url: /blog/
