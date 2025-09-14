@@ -250,7 +250,6 @@ p.infolinks { margin: 0.3em 0em 0em 0em; padding: 0px; }
 
 <table id="qs_table" border="1">
 <tbody>
-SORT BY year DESCENDING
 <tr id="Dadras2025-pFLMF" class="entry">
 	<td>Dadras, A., Stich, S.U. and Yurtsever, A. 
 	(2025), 
@@ -288,7 +287,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Hou2025-UDV" class="entry">
 	<td>Hou, Y., Sra, S. and Yurtsever, A. 
 	(2025), 
@@ -312,7 +310,7 @@ SORT BY year DESCENDING
 	</td>
 </tr>
 <tr id="abs_Hou2025-UDV" class="abstract noshow">
-	<td><b>Abstract</b>: Gradient descent for matrix factorization is known to exhibit an implicit bias toward approximately low-rank solutions. While existing theories often assume the boundedness of iterates, empirically the bias persists even with unbounded sequences. We thus hypothesize that implicit bias is driven by divergent dynamics markedly different from the convergent dynamics for data fitting. Using this perspective, we introduce a new factorization model: X &ap; UDV^top, where U and V are constrained within norm balls, while D is a diagonal factor allowing the model to span the entire search space. Our experiments reveal that this model exhibits a strong implicit bias regardless of initialization and step size, yielding truly (rather than approximately) low-rank solutions. Furthermore, drawing parallels between matrix factorization and neural networks, we propose a novel neural network model featuring constrained layers and diagonal components. This model achieves strong performance across various regression and classification tasks while finding low-rank solutions, resulting in efficient and lightweight networks.</td>
+	<td><b>Abstract</b>: Gradient descent for matrix factorization is known to exhibit an implicit bias toward approximately low-rank solutions. While existing theories often assume the boundedness of iterates, empirically the bias persists even with unbounded sequences. We thus hypothesize that implicit bias is driven by divergent dynamics markedly different from the convergent dynamics for data fitting. Using this perspective, we introduce a new factorization model: X &ap; UDV^T, where U and V are constrained within norm balls, while D is a diagonal factor allowing the model to span the entire search space. Our experiments reveal that this model exhibits a strong implicit bias regardless of initialization and step size, yielding truly (rather than approximately) low-rank solutions. Furthermore, drawing parallels between matrix factorization and neural networks, we propose a novel neural network model featuring constrained layers and diagonal components. This model achieves strong performance across various regression and classification tasks while finding low-rank solutions, resulting in efficient and lightweight networks.</td>
 </tr>
 <tr id="bib_Hou2025-UDV" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -326,7 +324,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Maskan2025-BlockCoordinateDC" class="entry">
 	<td>Maskan, H., Halvachi, P., Sra, S. and Yurtsever, A. 
 	(2025), 
@@ -364,7 +361,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Maskan2025-RevisitingNonconvexFW" class="entry">
 	<td>Maskan, H., Hou, Y., Sra, S. and Yurtsever, A. 
 	(2025), 
@@ -388,7 +384,7 @@ SORT BY year DESCENDING
 	</td>
 </tr>
 <tr id="abs_Maskan2025-RevisitingNonconvexFW" class="abstract noshow">
-	<td><b>Abstract</b>: We introduce a new projection-free (Frank-Wolfe) method for optimizing structured nonconvex functions that are expressed as a difference of two convex functions. This problem class subsumes smooth nonconvex minimization, positioning our method as a promising alternative to the classical Frank-Wolfe algorithm. DC decompositions are not unique; by carefully selecting a decomposition, we can better exploit the problem structure, improve computational efficiency, and adapt to the underlying problem geometry to find better local solutions. We prove that the proposed method achieves a first-order stationary point in &Oscr;(1/2) iterations,  matching the complexity of the standard Frank-Wolfe algorithm for smooth nonconvex minimization in general. Specific decompositions can, for instance, yield a gradient-efficient variant that requires only &Oscr;(1/) calls to the gradient oracle. Finally, we present numerical experiments demonstrating the effectiveness of the proposed method compared to the standard Frank-Wolfe algorithm.<br></td>
+	<td><b>Abstract</b>: We introduce a new projection-free (Frank-Wolfe) method for optimizing structured nonconvex functions that are expressed as a difference of two convex functions. This problem class subsumes smooth nonconvex minimization, positioning our method as a promising alternative to the classical Frank-Wolfe algorithm. DC decompositions are not unique; by carefully selecting a decomposition, we can better exploit the problem structure, improve computational efficiency, and adapt to the underlying problem geometry to find better local solutions. We prove that the proposed method achieves a first-order stationary point in O(1/2) iterations,  matching the complexity of the standard Frank-Wolfe algorithm for smooth nonconvex minimization in general. Specific decompositions can, for instance, yield a gradient-efficient variant that requires only O(1/) calls to the gradient oracle. Finally, we present numerical experiments demonstrating the effectiveness of the proposed method compared to the standard Frank-Wolfe algorithm.</td>
 </tr>
 <tr id="bib_Maskan2025-RevisitingNonconvexFW" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -402,7 +398,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Maskan2025-UnifiedModel" class="entry">
 	<td>Maskan, H., Zygalakis, K., Eftekhari, A. and Yurtsever, A. 
 	(2025), 
@@ -440,7 +435,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Palenzuela2025-ProvableReduction" class="entry">
 	<td>Palenzuela, K., Dadras, A., Yurtsever, A. and Lofstedt, T. 
 	(2025), 
@@ -478,7 +472,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Prakhya2025-SDPNN" class="entry">
 	<td>Prakhya, K., Birdal, T. and Yurtsever, A. 
 	(2025), 
@@ -516,7 +509,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Banerjee2024-PersonalizedMultiTier" class="entry">
 	<td>Banerjee, S., Dadras, A., Yurtsever, A. and Bhuyan, M. 
 	(2024), 
@@ -554,7 +546,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Dadras2024-FederatedFrankWolfe" class="entry">
 	<td>Dadras, A., Banerjee, S., Prakhya, K. and Yurtsever, A. 
 	(2024), 
@@ -578,7 +569,7 @@ SORT BY year DESCENDING
 	</td>
 </tr>
 <tr id="abs_Dadras2024-FederatedFrankWolfe" class="abstract noshow">
-	<td><b>Abstract</b>: This paper concerns a fundamental class of convex matrix optimization problems. It presents the first algorithm that uses optimal storage and provably computes a lowrank approximation of a solution. In particular, when all solutions have low rank, the algorithm converges to a solution. This algorithm, SketchyCGM, modifies a standard convex optimization scheme, the conditional gradient method, to store only a small randomized sketch of the matrix variable. After the optimization terminates, the algorithm extracts a low-rank approximation of the solution from the sketch. In contrast to nonconvex heuristics, the guarantees for SketchyCGM do not rely on statistical models for the problem data. Numerical work demonstrates the benefits of SketchyCGM over heuristics.</td>
+	<td><b>Abstract</b>: Federated learning (FL) has gained a lot of attention in recent years for building privacy-preserving collaborative learning systems. However, FL algorithms for constrained machine learning problems are still limited, particularly when the projection step is costly. To this end, we propose a Federated Frank-Wolfe Algorithm (FedFW). FedFW features data privacy, low per-iteration cost, and communication of sparse signals. In the deterministic setting, FedFW achieves an varepsilon-suboptimal solution within &Oscr;(-2) iterations for smooth and convex objectives, and &Oscr;(-3) iterations for smooth but non-convex objectives. Furthermore, we present a stochastic variant of FedFW and show that it finds a solution within &Oscr;(-3) iterations in the convex setting. We demonstrate the empirical performance of FedFW on several machine learning tasks. <br></td>
 </tr>
 <tr id="bib_Dadras2024-FederatedFrankWolfe" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -592,7 +583,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Maskan2023-VariationalPerspective" class="entry">
 	<td>Maskan, H., Zygalakis, K. and Yurtsever, A. 
 	(2023), 
@@ -630,7 +620,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Dresdner2022-FasterOneSample" class="entry">
 	<td>Dresdner, G., Vladarean, M.L., R&auml;rsch, G., Locatello, F., Cevher, V. and Yurtsever, A. 
 	(2022), 
@@ -668,7 +657,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2022-QuantumFrankWolfe" class="entry">
 	<td>Yurtsever, A., Birdal, T. and Golyanik, V. 
 	(2022), 
@@ -706,7 +694,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2022-CCCPisFW" class="entry">
 	<td>Yurtsever, A. and Sra, S. 
 	(2022), 
@@ -744,7 +731,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Ding2021-ComplementarySlacknessSDP" class="entry">
 	<td>Ding, L., Yurtsever, A., Cevher, V., Tropp, J. and Udell, M. 
 	(2021), 
@@ -786,7 +772,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2021-AdaptiveTOS" class="entry">
 	<td>Yurtsever, A., Gu, A. and Sra, S. 
 	(2021), 
@@ -810,7 +795,7 @@ SORT BY year DESCENDING
 	</td>
 </tr>
 <tr id="abs_Yurtsever2021-AdaptiveTOS" class="abstract noshow">
-	<td><b>Abstract</b>: Three Operator Splitting (TOS) (Davis &amp; Yin, 2017) can minimize the sum of multiple convex functions effectively when an efficient gradient oracle or proximal operator is available for each term. This requirement often fails in machine learning applications: (i) instead of full gradients only stochastic gradients may be available; and (ii) instead of proximal operators, using subgradients to handle complex penalty functions may be more efficient and realistic. Motivated by these concerns, we analyze three potentially valuable extensions of TOS. The first two permit using subgradients and stochastic gradients, and are shown to ensure a O(1/sqrtt) convergence rate. The third extension AdapTOS endows TOS with adaptive step-sizes. For the important setting of optimizing a convex loss over the intersection of convex sets AdapTOS attains universal convergence rates, i.e., the rate adapts to the unknown smoothness degree of the objective. We compare our proposed methods with competing methods on various applications.</td>
+	<td><b>Abstract</b>: Three Operator Splitting (TOS) (Davis &amp; Yin, 2017) can minimize the sum of multiple convex functions effectively when an efficient gradient oracle or proximal operator is available for each term. This requirement often fails in machine learning applications: (i) instead of full gradients only stochastic gradients may be available; and (ii) instead of proximal operators, using subgradients to handle complex penalty functions may be more efficient and realistic. Motivated by these concerns, we analyze three potentially valuable extensions of TOS. The first two permit using subgradients and stochastic gradients, and are shown to ensure a O(1/t) convergence rate. The third extension AdapTOS endows TOS with adaptive step-sizes. For the important setting of optimizing a convex loss over the intersection of convex sets AdapTOS attains universal convergence rates, i.e., the rate adapts to the unknown smoothness degree of the objective. We compare our proposed methods with competing methods on various applications.</td>
 </tr>
 <tr id="bib_Yurtsever2021-AdaptiveTOS" class="bibtex noshow">
 <td><b>BibTeX</b>:
@@ -824,7 +809,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2021-NonconvexTOS" class="entry">
 	<td>Yurtsever, A., Mangalick, V. and Sra, S. 
 	(2021), 
@@ -862,7 +846,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2021-ScalableSDP" class="entry">
 	<td>Yurtsever, A., Tropp, J., Fercoq, O., Udell, M. and Cevher, V. 
 	(2021), 
@@ -904,7 +887,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Cevher2019-InertialTOS" class="entry">
 	<td>Cevher, V., Vu, B. and Yurtsever, A. 
 	(2019), 
@@ -942,7 +924,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Locatello2019-StochasticHomotopyCGM" class="entry">
 	<td>Locatello, F., Yurtsever, A., Fercoq, O. and Cevher, V. 
 	(2019), 
@@ -980,7 +961,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Tropp2019-SketchingScientificSimulation" class="entry">
 	<td>Tropp, J., Yurtsever, A., Udell, M. and Cevher, V. 
 	(2019), 
@@ -1021,7 +1001,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2019-Cgal" class="entry">
 	<td>Yurtsever, A., Fercoq, O. and Cevher, V. 
 	(2019), 
@@ -1059,7 +1038,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2019-SpiderFW" class="entry">
 	<td>Yurtsever, A., Suvrit, S. and Cevher, V. 
 	(2019), 
@@ -1097,7 +1075,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Cevher2018-StochasticFDR" class="entry">
 	<td>Cevher, V., Vu, B. and Yurtsever, A. 
 	(2018), 
@@ -1136,7 +1113,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Hsieh2018-NonEuclideanFactorization" class="entry">
 	<td>Hsieh, Y.-P., Kao, Y.-C., Mahabadi, R.K., Yurtsever, A., Kyrillidis, A. and Cevher, V. 
 	(2018), 
@@ -1177,7 +1153,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Levy2018-Accelegrad" class="entry">
 	<td>Levy, K., Yurtsever, A. and Cevher, V. 
 	(2018), 
@@ -1215,7 +1190,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Bang2018-NonconvexAugmentedLagrangian" class="entry">
 	<td>Vu, B., Alacaoglu, A., Sahin, M., Yurtsever, A. and Cevher, V. 
 	(2018), 
@@ -1253,7 +1227,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2018-HomotopyCGM" class="entry">
 	<td>Yurtsever, A., Fercoq, O., Locatello, F. and Cevher, V. 
 	(2018), 
@@ -1291,7 +1264,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Tropp2017-NystromSketch" class="entry">
 	<td>Tropp, J., Yurtsever, A., Udell, M. and Cevher, V. 
 	(2017), 
@@ -1329,7 +1301,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Tropp2017-PracticalSketch" class="entry">
 	<td>Tropp, J., Yurtsever, A., Udell, M. and Cevher, V. 
 	(2017), 
@@ -1370,7 +1341,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Tropp2017-RandomizedSingleView" class="entry">
 	<td>Tropp, J., Yurtsever, A., Udell, M. and Cevher, V. 
 	(2017), 
@@ -1408,7 +1378,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2017-ScalableLowRank" class="entry">
 	<td>Yurtsever, A., Tran-Dinh, Q. and Cevher, V. 
 	(2017), 
@@ -1446,7 +1415,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2016-SketchyDecision" class="entry">
 	<td>Yurtsever, A., Udell, M., Tropp, J. and Cevher, V. 
 	(2017), 
@@ -1484,7 +1452,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Odor2016-PoissonPhaseRetrieval" class="entry">
 	<td>Odor, G., Li, Y.-H., Yurtsever, A., Hsieh, Y.-P., Tran-Dinh, Q., El&nbsp;Halabi, M. and Cevher, V. 
 	(2016), 
@@ -1522,7 +1489,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2016-StochasticThreeOperator" class="entry">
 	<td>Yurtsever, A., Vu, B. and Cevher, V. 
 	(2016), 
@@ -1560,7 +1526,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2015-ScalablePhaseRetrieval" class="entry">
 	<td>Yurtsever, A., Hsieh, Y.-P. and Cevher, V. 
 	(2015), 
@@ -1598,7 +1563,6 @@ SORT BY year DESCENDING
 }
 </pre></td>
 </tr>
-SORT BY year DESCENDING
 <tr id="Yurtsever2015-UniversalPrimalDual" class="entry">
 	<td>Yurtsever, A., Tran-Dinh, Q. and Cevher, V. 
 	(2015), 
