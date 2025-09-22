@@ -2,13 +2,11 @@
 layout: single
 ---
 
-<h2>Announcements</h2>
+<h2>Short Bio</h2>
 
 <font size="3">
 <p>
-PhD and Postdoc positions on Optimization and Machine Learning are available in my research group at Umeå University in Sweden. 
-Contact me via email if you are interested. 
-For more information and instructions on how to apply, <a href="https://www.umu.se/en/work-with-us/open-positions/wasp-ai-program-phd-position-in-optimization-and-machine-learning_395827/">click here</a>.
+Alp Yurtsever is a WASP Assistant Professor of Optimization and Machine Learning at the Department of Mathematics and Mathematical Statistics, Umeå University, Sweden. His research develops theory and algorithms for challenging optimization problems, motivated by applications in resource allocation, networked decision-making, and machine learning. His interests include conic programming, large-scale semidefinite programming, structured nonconvex and bilevel optimization, quantum-assisted optimization, distributed learning, operator splitting, and adaptive methods. Prior to joining Umeå University, he received his PhD in Computer and Communication Sciences (EDIC) from École Polytechnique Fédérale de Lausanne (EPFL), where his dissertation was awarded a Thesis Distinction, and completed a postdoctoral fellowship at the Massachusetts Institute of Technology (MIT) in the Laboratory for Information and Decision Systems (LIDS).
 </p>
 </font>
 
@@ -17,6 +15,19 @@ For more information and instructions on how to apply, <a href="https://www.umu.
 
 <font size="3">
 <p>
+<b>[Sep 18, 2025]</b> Our paper with Hoomaan Maskan, Yikun Hou, and Suvrit Sra titled <a href="https://arxiv.org/abs/2503.08921">Revisiting Frank-Wolfe for Structured Nonconvex Optimization</a> is accepted to NeurIPS 2025. 
+<br>
+<b>[Aug 13, 2025]</b> Our paper with Ali Dadras, and Sebastian Stich titled <a href="https://openreview.net/forum?id=EdqF7joEha">Personalized Federated Learning via Low-Rank Matrix Optimization</a> is accepted to TMLR. 
+<br>
+<b>[Jul 16, 2025]</b> Our paper with Anh Duc Nguyen, Suvrit Sra, and Kim-Chuan Toh titled <a href="https://arxiv.org/abs/2509.11657">Improved Rates for Stochastic Variance Reduced DCA</a> is accepted to the 2025 64th IEEE Conference on Decision and Control (CDC). 
+<br>
+<b>[Jun 24, 2025]</b> Our paper with Karlo Palenzuela, Ali Dadras, and Tommy Lofstedt titled <a href="https://arxiv.org/abs/2503.21627?">Provable Reduction in Communication Rounds for Non-Smooth Convex Federated Learning</a> is accepted to IEEE MLSP 2025 workshop. 
+<br>
+<b>[Feb 12, 2025]</b> My co-supervised PhD student Ali Dadras has successfully defended his thesis on "Personalized Models and Optimization in Federated Learning". 
+<br>
+<b>[Jan 22, 2025]</b> Our paper with Karthik Prakhya and Tolga Birdal titled <a href="https://openreview.net/forum?id=e0X9l4kecx">Convex Formulations for Training Two-Layer ReLU Neural Networks</a> is accepted to ICLR 2025. 
+<br>
+<!--
 <b>[May 8, 2021]</b> Our paper with Varun Mangalick and Suvrit Sra on <a href="https://arxiv.org/abs/2103.04568">Three Operator Splitting with a Nonconvex Loss Function</a> is accepted to ICML. 
 <br>
 <b>[May 7, 2021]</b> Our paper with Lijun Ding, Volkan Cevher, Joel Tropp, and Madeleine Udell entitled <a href="https://arxiv.org/abs/1902.03373">An Optimal-Storage Approach to Semidefinite Programming using Approximate Complementarity</a> is accepted for publication at SIAM Journal on Optimization.
@@ -89,6 +100,7 @@ For more information and instructions on how to apply, <a href="https://www.umu.
 <br>
 <b>[Sep 1, 2018] </b> I joined LIDS at MIT as a visiting student for the fall semester, hosted by Prof. Suvrit Sra.
 <br>
+-->
 </p>
 </font>
 
